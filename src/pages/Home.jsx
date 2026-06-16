@@ -27,7 +27,7 @@ const Home = () => {
     <div className="bg-brand-light dark:bg-gray-900 min-h-screen transition-colors">
       
       {/* 1. Hero Section */}
-      <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden py-24 mt-16">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img 
@@ -128,7 +128,7 @@ const Home = () => {
             <img 
               src="https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80" 
               alt="Farm Life" 
-              className="rounded-3xl shadow-xl w-full h-[400px] object-cover"
+              className="rounded-3xl shadow-xl w-full h-[250px] md:h-[400px] object-cover"
             />
           </div>
           <div className="lg:w-1/2">
