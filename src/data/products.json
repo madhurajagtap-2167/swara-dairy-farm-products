@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Cow Milk",
+    "name_mr": "गाईचे दूध",
+    "category": "Dairy",
+    "price": 60,
+    "unit": "Liter",
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80",
+    "description": "Fresh and organic cow milk straight from our farm.",
+    "description_mr": "आमच्या शेतातील ताजे आणि सेंद्रिय गाईचे दूध."
+  },
+  {
+    "id": 2,
+    "name": "Buffalo Milk",
+    "name_mr": "म्हशीचे दूध",
+    "category": "Dairy",
+    "price": 80,
+    "unit": "Liter",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80",
+    "description": "Rich, creamy, and unadulterated buffalo milk.",
+    "description_mr": "घट्ट आणि मलईदार म्हशीचे दूध."
+  },
+  {
+    "id": 3,
+    "name": "Farm Eggs",
+    "name_mr": "शेतातील अंडी",
+    "category": "Eggs",
+    "price": 10,
+    "unit": "Piece",
+    "image": "/src/assets/eggs.png",
+    "description": "Nutritious and healthy farm-fresh eggs.",
+    "description_mr": "पौष्टिक आणि आरोग्यदायी शेतातील ताजी अंडी."
+  },
+  {
+    "id": 4,
+    "name": "Fresh Chicken",
+    "name_mr": "ताजे चिकन",
+    "category": "Poultry",
+    "price": 250,
+    "unit": "Kg",
+    "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80",
+    "description": "Tender and hygienically processed fresh chicken.",
+    "description_mr": "मऊ आणि स्वच्छ प्रक्रियेद्वारे तयार केलेले ताजे चिकन."
+  },
+  {
+    "id": 5,
+    "name": "Desi Cock (Kombda)",
+    "name_mr": "गावरान कोंबडा",
+    "category": "Poultry",
+    "price": 500,
+    "unit": "Piece",
+    "image": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&q=80",
+    "description": "Authentic free-range desi cock for traditional recipes.",
+    "description_mr": "पारंपारिक पाककृतींसाठी अस्सल गावरान कोंबडा."
+  },
+  {
+    "id": 6,
+    "name": "Fresh Coconut",
+    "name_mr": "ताजा नारळ",
+    "category": "Coconut Products",
+    "price": 30,
+    "unit": "Piece",
+    "image": "/src/assets/coconut.png",
+    "description": "Sweet, water-filled fresh coconuts from our coastal farm.",
+    "description_mr": "आमच्या किनारपट्टीच्या शेतातील गोड, पाण्याने भरलेले ताजे नारळ."
+  }
+]

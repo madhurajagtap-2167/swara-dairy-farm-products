@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #2ecc71;
+  --color-brand-green-dark: #27ae60;
+  --color-brand-brown: #d35400;
+  --color-brand-brown-light: #e67e22;
+  --color-brand-light: #f9f9f9;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-light text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+}
