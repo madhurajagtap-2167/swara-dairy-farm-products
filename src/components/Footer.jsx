@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
+import logoImg from '../assets/logo.png';
 
 const Footer = () => {
   const { language } = useContext(AppContext);
@@ -14,7 +15,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src="/src/assets/logo.png" alt="Swara Dairy" className="h-12 w-12 bg-white rounded-full p-1 object-contain" onError={(e) => { e.target.src = 'https://placehold.co/100x100/2ecc71/ffffff?text=Swara' }} />
+              <img src={logoImg} alt="Swara Dairy" className="h-12 w-12 bg-white rounded-full p-1 object-contain" onError={(e) => { e.target.src = 'https://placehold.co/100x100/2ecc71/ffffff?text=Swara' }} />
               <span className="font-bold text-2xl tracking-wide">Swara Dairy</span>
             </Link>
             <p className="text-green-100 mb-4">

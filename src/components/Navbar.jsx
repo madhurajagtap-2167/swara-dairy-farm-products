@@ -3,6 +3,7 @@ import { ShoppingCart, Menu, X, LogIn, LogOut, User, Languages } from 'lucide-re
 import { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 import { CartContext } from '../context/CartContext';
+import logoImg from '../assets/logo.png';
 
 const Navbar = () => {
   const { language, toggleLanguage } = useContext(AppContext);
@@ -35,7 +36,7 @@ const Navbar = () => {
           {/* Logo - Left */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
             <img
-              src="/src/assets/logo.png"
+              src={logoImg}
               alt="Swara Dairy"
               className="h-10 w-10 object-contain rounded-full bg-brand-green/10 p-1"
               onError={(e) => { e.target.src = 'https://placehold.co/100x100/2ecc71/ffffff?text=SD'; }}

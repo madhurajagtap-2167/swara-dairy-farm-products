@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 import { LogIn, Mail, Lock } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 const Login = () => {
   const { language } = useContext(AppContext);
@@ -50,8 +51,8 @@ const Login = () => {
 
           {/* Header */}
           <div className="bg-brand-green p-8 text-center text-white">
-            <div className="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
-              <LogIn size={32} className="text-white" />
+            <div className="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 backdrop-blur-sm p-1 shadow-lg border border-white/30">
+              <img src={logoImg} alt="Logo" className="w-full h-full object-contain rounded-full bg-white p-1" />
             </div>
             <h1 className="text-2xl font-bold mb-1">
               {isEn ? 'Welcome Back' : 'पुन्हा स्वागत आहे'}

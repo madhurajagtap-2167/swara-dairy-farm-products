@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 import { ArrowRight, Leaf, ShieldCheck, Truck, Clock, Star, MapPin, Phone, Mail } from 'lucide-react';
 import productsData from '../data/products.json';
+import logoImg from '../assets/logo.png';
 
 const Home = () => {
   const { language } = useContext(AppContext);
@@ -40,7 +41,7 @@ const Home = () => {
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
           <img 
-            src="/src/assets/logo.png" 
+            src={logoImg}
             alt="Swara Dairy Logo" 
             className="h-24 w-24 md:h-32 md:w-32 object-contain bg-white/10 backdrop-blur-md rounded-full p-2 mb-6 border border-white/20 shadow-2xl"
           />
